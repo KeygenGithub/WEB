@@ -1,0 +1,27 @@
+.row > div {
+    border: 1px solid black;
+}
+
+.row {
+    display: flex;
+}
+
+.header {
+    letter-spacing: -0.1em;
+    display: inline;
+}
+
+.nav-link {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 220px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
